@@ -1,0 +1,13 @@
+Introduction to Programming - Basics
+	Source Code: User written code in a human readable language.
+	
+	Byte Code: A fixed set of instructions that represents all operations like arithmetic, comparison, memory related operations etc.
+		Bytecode is also referred to as P-code or Portable code. This code cannot be read by human.
+		A compiler converts Source Code to Bytecode.
+		Bytecode will be generated only when there is no compiler error. Ex. Say, you make a mistake in syntax, then the compilation will not be successful. Hence, there won't be bytecode generated.
+		
+	Machine Code: Comprises of 0's and 1's that can be understood by machines.
+		An interpreter converts bytecode in to machine code.
+		Machine code will not be generated if there is a runtime error. Ex. Say you have asked to print a variable that is not defined. It will lead to runtime error.
+	
+	Check out the Snippet for Generating Byte Code
