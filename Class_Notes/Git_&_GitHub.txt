@@ -1,0 +1,45 @@
+Git & GitHub
+	Git: Is a version control system
+	Github: Is a cloud repository in which Git is implemented.
+	Git: Is a distributed version control system.
+	Git: Most operations done in local system, need not be connected to central server often.
+	Git Bash: Linux API for Windows. Provides Command Line Interface (CLI) for Git commands.
+
+Configuring GitHub": One Time Activity
+	1. Install GitHub with vim as the default editor.
+	2. Create an account on www.github.com
+	3. Launch Git Bash and follow the command sequence below:
+		
+		balaj@BLR-Balaji MINGW64 ~ $ git config --global user.name 'Blrbalaji'
+
+		balaj@BLR-Balaji MINGW64 ~ $ git config --global user.email 'abc@gmail.com'
+
+		balaj@BLR-Balaji MINGW64 ~ $ git config --global core.autocrlf true # This is end of line command
+
+Procedure for Working with Git & GitHub
+	1. Launch Git Bash
+	2. balaj@BLR-Balaji MINGW64 ~/desktop
+	3. $ mkdir Gitrep
+	4. $ cd Gitrep
+	5. $ mkdir LB_2020.11.01
+	6. $ cd LB_2020.11.01
+	7. $ mkdir Python
+
+Adding | Committing | Pushing to GitHub
+
+	[Local System] =  [Working Area | Staging Area | Local Repository]
+	[GitHub] = [Cloud Storage]
+	
+	Working Area: Any file / folder at this stage is untracked. Ex. If you C & P any file into Gitrep it won't be visible on GitHub as yet.
+	Objective: To Add Python Folder and all files under it.
+	
+	balaj@BLR-Balaji MINGW64 ~/desktop/Gitrep/LB_2020.11.01 (master) # Note that you need to be one level up i.e. in the master
+	$ git add Python # This implies folder have moved from untracked to tracked area.
+	
+	Staging Area: Here you have to Commit the folder / files.
+	$ git commit -m 'My tryst with Git | Moving Files to the Repository' # Message is a must within single quotes.
+	
+	$ git push # this pushes the files into the GitHub. You must now see your folders and files inside the GitHub
+	
+	
+ 
