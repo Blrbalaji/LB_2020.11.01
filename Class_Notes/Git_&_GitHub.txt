@@ -43,5 +43,9 @@ Adding | Committing | Pushing to GitHub
 	
 	$ git pull # this command pulls in files / folder that were added or edited in GitHub to the local repository.
 	
+	$ git init # Incase you need to initialize git again. i.e. when you accidentally delete the folder on the desktop.
+	
+	$ git clone https://github.com/Blrbalaji/LB_2020.11.01.git # Clone from your repository
+	
 	
  
