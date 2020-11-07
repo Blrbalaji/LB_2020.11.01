@@ -41,5 +41,7 @@ Adding | Committing | Pushing to GitHub
 	
 	$ git push # this pushes the files into the GitHub. You must now see your folders and files inside the GitHub
 	
+	$ git pull # this command pulls in files / folder that were added or edited in GitHub to the local repository.
+	
 	
  
