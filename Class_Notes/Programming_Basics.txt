@@ -24,5 +24,5 @@ Introduction to Programming - Basics
 5. Python is embedded: Code written in Python can be used in other Programming Languages.
 
 # Input & Output Functions
-
+Understand: Input, Eval, Print # Pay Attention to format
 	
