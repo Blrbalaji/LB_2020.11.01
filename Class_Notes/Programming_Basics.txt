@@ -5,9 +5,21 @@ Introduction to Programming - Basics
 		Bytecode is also referred to as P-code or Portable code. This code cannot be read by human.
 		A compiler converts Source Code to Bytecode.
 		Bytecode will be generated only when there is no compiler error. Ex. Say, you make a mistake in syntax, then the compilation will not be successful. Hence, there won't be bytecode generated.
+		Extension of bytecode is *.pyc
 		
 	Machine Code: Comprises of 0's and 1's that can be understood by machines.
 		An interpreter converts bytecode in to machine code.
 		Machine code will not be generated if there is a runtime error. Ex. Say you have asked to print a variable that is not defined. It will lead to runtime error.
 	
 	Check out the Snippet for Generating Byte Code
+
+1. Python is Free & Open Source (Source code can be obtained).
+2. Python platform independant (Program can run in Win, Mac, Linux etc)
+	Example: Win system compiled *.exe file cannot run in Mac or Linux especially for C
+	Thus, we say C program is platform dependant.
+	Python is platform independant, i.e. Bytecode generated on any OS can run in any OS.
+3. Python is Portable: Source code running in one OS can be transferred to another OS without any modification.
+	C is also portable.
+4. Python is extensible: Code written in other prgramming language can be used in Python
+5. Python is embedded: Code written in Python can be used in other Programming Languages.
+	
