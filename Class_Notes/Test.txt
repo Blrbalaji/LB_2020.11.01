@@ -1,1 +1,3 @@
 This is to test auto push via git
+
+git commit -a -m "autoupdate `date +%F-%T`" did not work
