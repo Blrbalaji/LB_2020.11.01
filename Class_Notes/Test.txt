@@ -1,5 +1,0 @@
-git commit -m "Backup to GitHub - %Date%" - This expression works fine. However, the default date format is mm/dd/yyyy
-
-Trying to change it with ISO format of YYYY-MM-DD
-
-%Date:~6,4%_%Date:~3,2%_%Date:~0,2%

@@ -10,11 +10,11 @@ Configuring GitHub": One Time Activity
 	2. Create an account on www.github.com
 	3. Launch Git Bash and follow the command sequence below:
 		
-		balaj@BLR-Balaji MINGW64 ~ $ git config --global user.name 'Blrbalaji'
+		Balaji@Balaji MINGW64 ~ $ git config --global user.name 'Blrbalaji'
 
-		balaj@BLR-Balaji MINGW64 ~ $ git config --global user.email 'abc@gmail.com'
+		Balaji@Balaji MINGW64 ~ $ git config --global user.email 'abc@gmail.com'
 
-		balaj@BLR-Balaji MINGW64 ~ $ git config --global core.autocrlf true # This is end of line command
+		Balaji@Balaji MINGW64 ~ $ git config --global core.autocrlf true # This is end of line command
 
 Procedure for Working with Git & GitHub
 	1. Launch Git Bash
@@ -33,7 +33,7 @@ Adding | Committing | Pushing to GitHub
 	Working Area: Any file / folder at this stage is untracked. Ex. If you C & P any file into Gitrep it won't be visible on GitHub as yet.
 	Objective: To Add Python Folder and all files under it.
 	
-	balaj@BLR-Balaji MINGW64 ~/desktop/Gitrep/LB_2020.11.01 (master) # Note that you need to be one level up i.e. in the master
+	Balaji@Balaji MINGW64 ~/desktop/Gitrep/LB_2020.11.01 (master) # Note that you need to be one level up i.e. in the master
 	$ git add Python # This implies folder have moved from untracked to tracked area.
 	
 	Staging Area: Here you have to Commit the folder / files.
@@ -46,6 +46,20 @@ Adding | Committing | Pushing to GitHub
 	$ git init # Incase you need to initialize git again. i.e. when you accidentally delete the folder on the desktop.
 	
 	$ git clone https://github.com/Blrbalaji/LB_2020.11.01.git # Clone from your repository
-	
+
+Automating Add | Commit | Push via Batch Mode
+
+There are tons of procedure outthere with mixed success. Half the suggestions don't even work. I figured out this is the best way:
+
+Create a *.bat file in the repository (i.e. where you would do Git Bash here)
+Add the following lines of code:
+
+git add Class_Notes
+git add Python
+git commit -m "Backup to GitHub - %Date:~6,4%.%Date:~3,2%.%Date:~0,2%"
+git push
+
+Note that, the default format for date is MM-DD-YYYY | I changed it to ISO format.
+After that, create a shortcut to the batch file on your desktop. Everytime you click, it would execute the batch file in the repository.
 	
  
