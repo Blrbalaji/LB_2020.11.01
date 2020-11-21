@@ -25,4 +25,17 @@ Introduction to Programming - Basics
 
 # Input & Output Functions
 Understand: Input, Eval, Print # Pay Attention to format
+
+Cmponent | Datatypes | Operators
+
+I Components of Python
+	1. Literal - Any constant value
+		a  int literal = 10
+		b. float literal = 10.2
+		c. Boolean = True 
+		d. Decimal = 123
+		e. Hexadecimal = 0xfc98
+		f. Octal = 0o7654
+		g. String = 'Dolly'
+		h. Complex = 10 + 3j
 	
