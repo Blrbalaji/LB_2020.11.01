@@ -2,4 +2,4 @@
 This module contains code snippets and tryouts from Python Introductory Classes.
 
 Some of the interesting snippets are listed below:
-- 03_Transient_Forces: This module computes the unbalance forces, oscillating forces, tangential and centrifugal forces due to unbalance due to rotation acceleration.  
+- 03_Transient_Forces: This module computes the unbalance, oscillating, tangential and centrifugal forces due to rotational acceleration of an initial unabalance and orientation
